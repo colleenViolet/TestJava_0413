@@ -1,0 +1,22 @@
+package test03;
+
+public class CheckWeightInfor extends HealthInfor {
+	
+	public CheckWeightInfor (String name, double height, double weight) {
+		super(name, height, weight);
+	}
+	
+	public void calculateWeight() {
+		double standardWeight = (this.getHeight() - 100) * 0.9;
+		double BMI = (this.getWeight() - standardWeight)/ standardWeight *100;
+		
+		if(BMI < 10) {
+			System.out.println("이름은 " + this.getName() +"신장은 "+ this.getHeight() +" 몸무게는 "+ this.getWeight() +"정상입니다. ");
+		}else if (BMI < 20 || BMI > 10) {
+			System.out.println("이름은 " + this.getName() +"신장은 "+ this.getHeight() +" 몸무게는 "+ this.getWeight() + " 과체중입니다.");
+		}else {
+			System.out.println("이름은 " + this.getName() +"신장은 "+ this.getHeight() +" 몸무게는 "+ this.getWeight() + "비만입니다. ");
+		}
+	}
+
+}

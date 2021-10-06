@@ -1,0 +1,17 @@
+package ex02;
+
+public class Ex02 {
+	//Math 
+	public static void main(String[] args) {
+		//함수 사용하기 
+		
+		//반올림 함수 
+		double number = 3.14;
+		
+		long result = Math.round(number);
+		System.out.println(result);
+		
+		System.out.println(Math.round(number));
+		
+	}
+}

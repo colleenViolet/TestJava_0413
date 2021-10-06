@@ -1,0 +1,21 @@
+package main;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int number1 = scan.nextInt();
+		int number2 = scan.nextInt();
+		
+		int space1 = number2 % 10;
+		System.out.println(number1 * space1);
+		int space2 = number2 % 100 - space1;
+		System.out.println(number1 * space2 /10);
+//		int space3 = number2
+	}
+
+}

@@ -1,0 +1,18 @@
+package test03;
+
+public class CheckWeightInfor extends HealthInfor {
+	
+	public void calculateWeight() {
+		double standardWeight = (this.getHeight() - 100) * 0.9;
+		double BMI = (this.getWeight() - standardWeight)/ standardWeight *100;
+		
+		if(BMI >20) {
+			
+		}else if (BMI < 20 || BMI > 10) {
+			
+		}else {
+			
+		}
+	}
+
+}

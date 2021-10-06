@@ -1,0 +1,35 @@
+package test04;
+
+import ex02.PersonInfor;
+
+public class Triangle {
+	
+	private int height;
+	private int width;
+	private double erea;
+	
+	public Triangle (int height, int width) {
+		this.height = height;
+		this.width = width;
+	}
+	
+	public void calculateErea() {
+		this.erea = (height * width)/2.0;
+	}
+	
+	@Override
+	public String toString() {
+		String result = this.width +" 에 " + this.height +" 인 삼각형의 넓이는 " + this.erea;
+		return result;
+	}
+	
+	public boolean equals(Object obj) {
+		Triangle triAngle = (Triangle)obj;
+		//각자 다른 삼각형 인식
+		
+		if(this.erea == triAngle.erea )) {
+			return true;
+		}
+		return false;
+	}
+}

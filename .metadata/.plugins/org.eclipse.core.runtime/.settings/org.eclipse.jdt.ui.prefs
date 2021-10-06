@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="ex02.ScoreDate"><rhs name\="ex02.ScoreDate"/></lhs><lhs name\="test03.CellPhoneDate"><rhs name\="test03.CellPhoneDate"/></lhs><lhs name\="test03.StudentDate"><rhs name\="test03.StudentDate"/></lhs><lhs name\="test01.Circle"><rhs name\="test01.Circle"/></lhs><lhs name\="test01.ManagementProduction"><rhs name\="test01.ManagementProduction"/></lhs><lhs name\="test01.PersonInformation"><rhs name\="test01.PersonInformation"/></lhs><lhs name\="ex01.PersonInformation"><rhs name\="ex01.PersonInformation"/></lhs><lhs name\="test02.StudentInformation"><rhs name\="test02.StudentInformation"/></lhs><lhs name\="test02.PhoneInformation"><rhs name\="test02.PhoneInformation"/></lhs><lhs name\="test03.Circle"><rhs name\="test03.Circle"/></lhs><lhs name\="test03.ManagementProduction"><rhs name\="test03.ManagementProduction"/></lhs><lhs name\="test04.Omrcard"><rhs name\="test04.Omrcard"/></lhs><lhs name\="test01.Lotto"><rhs name\="test01.Lotto"/></lhs><lhs name\="test01.LottoChecker"><rhs name\="test01.LottoChecker"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
